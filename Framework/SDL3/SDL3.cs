@@ -1,9 +1,7 @@
 // NOTE: This file is auto-generated.
-using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
-using System.Text;
 
 namespace SDL3;
 
@@ -8725,5 +8723,4 @@ public static unsafe partial class SDL3
 	[LibraryImport(nativeLibName)]
 	[UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
 	public static partial void SDL_GDKSuspendComplete();
-
 }
