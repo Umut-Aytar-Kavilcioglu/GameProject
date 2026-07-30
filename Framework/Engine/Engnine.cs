@@ -1,6 +1,6 @@
-using static Framework.SDL3;
+using static Framework.SDL3.SDL3;
 
-namespace Framework;
+namespace Framework.Engine;
 
 public sealed class Engine : IDisposable
 {

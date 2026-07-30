@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.Marshalling;
 
-namespace Framework;
+namespace Framework.SDL3;
 
 public static unsafe partial class SDL3
 {
